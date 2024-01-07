@@ -48,12 +48,13 @@
 
       .pricing-plan {
         background-color: #8a63ff;
-        box-shadow: -10px 10px 20px #c1acff;
+        box-shadow: -5px 5px 30px #8f6affb6;
+        border-left: 2px solid #9680d8fd;
+        border-bottom: 2px solid #9680d8;;
         border-radius: 10%;
         padding: 10px;
         text-align: center;
         justify-content: center;
-        border-color: #ffffff;
       }
 
       .plan-features {
@@ -76,7 +77,9 @@
         margin: 10px 0px;
         font-weight: bold;
         background: linear-gradient(90deg, #c1acff, #9c7bff, #8a63ff);
-        box-shadow: -8px 7px 10px #6f3fff;
+        box-shadow: -8px 7px 8px #6f3fff6b;
+        border-left: 2px solid #7666a7;
+        border-bottom: 2px solid #7666a7;;
         border-radius: 10px;
         width: fit-content;
         margin: auto;
@@ -92,6 +95,8 @@
         padding: 0.5rem;
         margin: 10px 0px;
         font-weight: bold;
+        border-left: 2px solid #d9ccffa1;
+        border-bottom: 2px solid #d9ccffa1;
       }
 
       /* Hint: What can you do with a media query and flexbox? */
@@ -104,7 +109,20 @@
 
         .pricing-container > * {
           flex-basis: auto;
-          width: 300px;
+          width: 75%;
+          border-radius: 50px;
+        }
+
+        .plan-price, .plan-button {
+          border-radius: 20px;
+        }
+
+        .plan-title, .plan-price, .plan-features, .plan-button {
+          font-size: 5vw;
+        }
+
+        #title {
+          font-size: 5vw;
         }
       }
     </style>
